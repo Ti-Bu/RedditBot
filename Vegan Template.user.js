@@ -20,7 +20,7 @@ if (window.top !== window.self) {
 }
 
 function updateImage() {
-    overlayImage.src = "https://raw.githubusercontent.com/Ti-Bu/GoVegan/main/foobar.png?" + Date.now()
+    overlayImage.src = "https://raw.githubusercontent.com/Ti-Bu/GoVegan/main/done/fertiges_bild.png?" + Date.now()
 }
 
-setInterval(function () {overlayImage.src = "https://raw.githubusercontent.com/Ti-Bu/GoVegan/main/foobar.png?" + Date.now()}, 30000);
+setInterval(function () {overlayImage.src = "https://raw.githubusercontent.com/Ti-Bu/GoVegan/main/done/fertiges_bild.png?" + Date.now()}, 30000);
