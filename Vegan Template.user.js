@@ -20,7 +20,7 @@ if (window.top !== window.self) {
 }
 
 function updateImage() {
-    overlayImage.src = "https://github.com/JustM3dium/GoVegan/blob/main/foobar.png"
+    overlayImage.src = "https://github.com/Ti-Bu/GoVegan/blob/main/foobar.png"
 }
 
-setInterval(function () {overlayImage.src = "https://github.com/JustM3dium/GoVegan/blob/main/foobar.png"}, 30000);
+setInterval(function () {overlayImage.src = "https://github.com/Ti-Bu/GoVegan/blob/main/foobar.png"}, 30000);
