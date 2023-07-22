@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Vegan Template
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  none
 // @author       TB
 // @match        https://garlic-bread.reddit.com/embed*
@@ -17,10 +17,6 @@ if (window.top !== window.self) {
         overlayImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;pointerEvents: 'none';`;
         canvasContainer.appendChild(overlayImage);
     }, false);
-}
-
-function updateImage() {
-    overlayImage.src = "https://raw.githubusercontent.com/Ti-Bu/GoVegan/main/done/fertiges_bild.png?" + Date.now()
 }
 
 setInterval(function () {overlayImage.src = "https://raw.githubusercontent.com/Ti-Bu/GoVegan/main/done/fertiges_bild.png?" + Date.now()}, 30000);
